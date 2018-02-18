@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="javascript/game.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+     <div id="header">
+        <h1><img src="http://cdn.htmlgames.com/WildWestHangman/img/menu_back.jpg" alt="" style="width:500px; height:200px" ;=""></h1>        
+     </div>
+    <div class="article column1">
+    <div class="wrapper"> 
+        <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+    <div class="container">
+          <button id="hint">Hint</button>
+          <button id="reset">Play again</button> 
+    </div>
+    </div>
+    </div>
+
+    <div class="column2">
+        <p id="catagoryName"></p>
+        <br>
+        <div id="hold">
+        </div>
+        <br>
+        <p id="mylives"></p>
+        <br>
+        <p id="clue">Clue -</p> 
+    </div>
+    
+    <div class="column3">
+        <div id="buttons">
+            <!-- <ul id="alphabet"><li id="letter">a</li><li id="letter">b</li><li id="letter">c</li><li id="letter">d</li><li id="letter">e</li><li id="letter">f</li><li id="letter">g</li><li id="letter">h</li><li id="letter">i</li><li id="letter">j</li><li id="letter">k</li><li id="letter">l</li><li id="letter">m</li><li id="letter">n</li><li id="letter">o</li><li id="letter">p</li><li id="letter">q</li><li id="letter">r</li><li id="letter">s</li><li id="letter">t</li><li id="letter">u</li><li id="letter">v</li><li id="letter">w</li><li id="letter">x</li><li id="letter">y</li><li id="letter">z</li></ul> -->
+        </div> 
+        <p>Use the alphabets above to guess the word, or click hint to get a clue. </p>
+    </div>
+</div>
+  
+</body>
+</html>
